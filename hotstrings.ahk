@@ -1,20 +1,17 @@
-﻿#NoEnv
-#Warn
-#Hotstring * C r
-SendMode Input
-SetWorkingDir %A_ScriptDir%
+#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+; #Warn  ; Enable warnings to assist with detecting common errors.
+SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ::.dash::—
 ::.dot::•
 ::.tu::d–(^ ‿ ^ )z
 ::.shrug::¯\_(ツ)_/¯
 ::.wave::( ﾟ◡ﾟ)/
-::.square::²
+::.squared::²
 ::.pi::π
 ::.lambda::λ
 ::.section::§
-::.lenny::( ͡° ͜ʖ ͡°)
-::.donger::ヽ༼ຈل͜ຈ༽ﾉ
 ::.tm::™
 ::.copyright::©
 ::.acutea::á
@@ -36,3 +33,5 @@ SetWorkingDir %A_ScriptDir%
 ::.euro::€
 ::.micro::µ
 ::.smile::☺
+::.blackstar::★
+::.whitestar::☆
